@@ -1,0 +1,77 @@
+#tupple
+
+T1 = (101, "Peter", 22)
+T2 = ("Apple", "Banana", "Orange")
+T3 = 10,20,30,40,50
+print(type(T1))
+print(T1)
+print(type(T2))
+print(type(T3))
+
+#slicing
+tuple = (1,2,3,4,5,6,7)
+print(tuple[1:])
+print(tuple[:4])
+print(tuple[2:5])
+print(tuple[0:6:2])
+
+
+#length 
+fruits = ('apple','banana','orange')
+print('Total Items in tuple:', len(tuple))
+print('Total Items in fruits:', len(fruits))
+
+# iterate through the tuple
+for fruit in fruits:
+    print(fruit)
+
+tuple1 = (1, 2, 3, 4, 5, 6)
+print(tuple1)
+#del tuple1[0]
+len(tuple1)
+max3 = max(tuple1)
+min3 = min(tuple1)
+print(max3)
+print(min3)
+print(tuple1[-1])
+print(tuple1[:-1])
+print(tuple1[-2:])
+
+
+
+#sets
+set1 = {"shiva","the","super", "hero"}
+print(set1)
+for i in set1:
+  print(i)
+set1.add("God")
+print(set1)
+set2 = {"Are","you", "a", "superhero too"}
+print(set2)
+set2.update("Monster")
+print(set2)
+set1.discard("the")
+print(set1)
+#union & intersection
+set = {1,4,66,7,"ji"}
+set3 = {0,98,"true",7}
+print(set|set3) #printing the union of the sets
+print(set&set3) #printing the intersection of the sets
+ 
+#dictionary
+s = {
+    1 : "god1",
+    2 : "god2",
+    3 : "god3",
+    4 : "god4"
+}
+
+print(s)
+#accessing
+print(s[3])
+#adding
+s["smiy"] = "jeet"
+print(s)
+s.pop(2)
+print(s)
+print(s.keys())
