@@ -1,0 +1,37 @@
+#string operations
+
+a = "great achievements"
+b = "by Gods200"
+age = 20
+print(a[0])
+print(a[3])
+print(a[:])
+print(a[0:])
+print(a[:8])
+print(a[-4:-1])
+print(a[::1])
+print(a[1:8:2])
+print("Concatenation operator",a + b)
+print("Repeatation operator",a*4)
+print("membership operator","g" in a)
+print("membership operator","z" in a)
+print(" length operator",len(a))
+print("Capitalize operator",a.capitalize())
+print("Uppercase operator",a.upper())
+print("Lowercase operator",a.lower())
+print("Lowercase operator",a.replace("a", "O"))
+print("My name is batman and I am %d years old!" %(age))
+print(a.isalnum())
+print(a.islower())
+print(a.isdigit())
+print(a.isdecimal())
+print(a.isupper())
+print(a.join(b))
+a = "great achievements"
+b = "by Gods200"
+print(a.isalnum())
+print(a.islower())
+print(a.isdigit())
+print(a.isdecimal())
+print(a.isupper())
+print(a.join(b))
