@@ -136,3 +136,7 @@ xlabel('time in seconds');
 ylabel('AM Amplitude');
 z=(xn1+(1.5*y));
 subplot (326)
+plot(t,z);
+xlabel('time in seconds');
+ylabel('AM Amplitude');
+title('AM m>1 signal');
